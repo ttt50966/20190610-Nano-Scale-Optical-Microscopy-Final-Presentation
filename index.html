@@ -35,7 +35,7 @@
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
     <h1>Nanoscale Optical Microscopy and Spectroscopy</h1>
-    <h2>Real time optical observation and control of atomically thin transition metal dichalcogenide synthesis</h2>
+    <h2>Rapid and Reliable Thickness Identification of Two-Dimensional Nanosheets Using Optical Microscopy</h2>
     <p>Kuan-Chia Chiu (D06222003)<br/>Physics Department @ NTU</p>
   </hgroup>
     <a href="https://github.com/ttt50966/20190610-Nano-Scale-Optical-Microscopy-Final-Presentation/zipball/gh-pages" class="example">
@@ -47,11 +47,20 @@
 
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
-  <hgroup>
-    <h2>Outline</h2>
-  </hgroup>
   <article data-timings="">
-    <ol>
+    <!-- Center image on slide -->
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
+<h2>Outline</h2>
+
+<ol>
 <li><font size=6><strong>Introduction</strong></font>
 
 <ul>
@@ -72,9 +81,27 @@
     <h2>Introduction</h2>
   </hgroup>
   <article data-timings="">
-    <h3>Transition Metal Dichalcogenides (TMDCs)</h3>
+    <h3><strong>Transition Metal Dichalcogenides (TMDCs)</strong></h3>
 
-<p>In a typical CVD synthesis, a transition metal containing precursor is placed in a tube furnace with a chalcogen precursor and a target substrate.</p>
+<p>TMDCs are thin semiconductors of the type MX\(_{2}\), with <strong>M</strong> as a transition metal atom (Mo, W, etc.) and <strong>X</strong> as a <strong>chalcogen</strong> atom (S, Se, or Te).  </p>
+
+<h3><strong>Monolayers of TMDCs</strong></h3>
+
+<ul>
+<li>Having Direct band gap can be used in electronics as transistors and in optics as emitter or detector
+
+<ul>
+<li>MoS\(_{2}\), WS\(_{2}\), MoSe\(_{2}\), WSe\(_{2}\), MoTe\(_{2}\)</li>
+</ul></li>
+<li>TMD monolayers has no inversion center, which allow to access a new dgree of freedom of charge carrier, namely the <strong>k-valley</strong> index
+
+<ul>
+<li><strong>+K</strong> valley and <strong>-K</strong> valley</li>
+</ul></li>
+<li>The strong spin-orbit coupling in TMD monolayers</li>
+</ul>
+
+<h6><a href="https://en.wikipedia.org/w/index.php?title=Transition_metal_dichalcogenide_monolayers&amp;oldid=891064104">Transition metal dichalcogenide monolayers on Wikipedia</a> (last visited June 3, 2019).</h6>
 
   </article>
   <!-- Presenter Notes -->
@@ -85,30 +112,105 @@
     <h2>Experiments</h2>
   </hgroup>
   <article data-timings="">
-    <!-- Limit image width and height -->
+    <h3>Description of the Optical Identification Method</h3>
 
-<style type='text/css'>
-img {
-    max-height: 560px;
-    max-width: 964px;
-}
-</style>
+<ol>
+<li>C\(_{D}\) = C - C\(_{S}\)</li>
+<li>C<font color=red>\(_{DR}\)</font> = C<font color=red>\(_{R}\)</font> - C<font color=red>\(_{SR}\)</font></li>
+<li>C<font color=green>\(_{GR}\)</font> = C<font color=green>\(_{G}\)</font> - C<font color=green>\(_{SG}\)</font></li>
+<li>C<font color=blue>\(_{DB}\)</font> = C<font color=blue>\(_{B}\)</font> - C<font color=blue>\(_{SB}\)</font></li>
+</ol>
 
-<!-- Center image on slide -->
+<p>The optical contrast of a nanosheet (defined as C) and substrate (defined as C\(_{S}\)) was directly measured from its color optical image by using a free software (ImageJ)</p>
 
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
 
-<script type='text/javascript'>
-$(function() {
-    $("p:has(img)").addClass('centered');
-});
-</script>
+<slide class="" id="slide-4" style="background:;">
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/fig_1.png" width="400"></p>
 
-<p><img src="./assets/img/reaction.png" alt=""></p>
+</div>
+<div style='float:right;width:48%;'>
+  <p><br></br><br></br></p>
 
-<h6><div style='text-align: center;'><em>Nanoscale</em>, 2019, <strong>11</strong>, 7317</div></h6>
+<h3>The contrast values with different poistions</h3>
 
-<p>Depictions of VSS and VLS growth modes for NaCl assisted TMDC synthesis. In the VSS mode, adsorbed vapour forms the crystals while in the VLS mode, a liquid precursor forms the crystal via a chemical reaction. M and X denote the metal and the chalcogen precursors, respectively.</p>
+<table><thead>
+<tr>
+<th>Layers</th>
+<th>Contrast</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>0 substracte</td>
+<td>120.4</td>
+</tr>
+<tr>
+<td>6 layers</td>
+<td>118.6</td>
+</tr>
+<tr>
+<td>8 layers</td>
+<td>162.3</td>
+</tr>
+</tbody></table>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h3>Optical Identification of Graphene Nanosheets</h3>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./assets/img/fig_2.png" width="800"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h3>Optical Identification of MoS2 Nanosheets</h3>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="./assets/img/fig_3.png" width="800"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img src="./assets/img/fig_4_1.png" width="330">
+<img src="./assets/img/fig_4_2.png" width="330">
+<img src="./assets/img/fig_4_3.png" width="330">
+<img src="./assets/img/fig_4_4.png" width="330"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><br></br> 
+<br></br> </p>
+
+<p><img src="./assets/img/fig_4_5.png" width="330">
+<img src="./assets/img/fig_4_6.png" width="330"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-8" style="background:;">
+  <article data-timings="">
+    <p><img src="./assets/img/table_1.png" width="700"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -120,7 +222,7 @@ $(function() {
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Outline'>
+        data-slide=1 title='NA'>
          1
       </a>
     </li>
@@ -134,6 +236,36 @@ $(function() {
       <a href="#" target="_self" rel='tooltip' 
         data-slide=3 title='Experiments'>
          3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='NA'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Optical Identification of Graphene Nanosheets'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Optical Identification of MoS2 Nanosheets'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='NA'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='NA'>
+         8
       </a>
     </li>
   </ul>
