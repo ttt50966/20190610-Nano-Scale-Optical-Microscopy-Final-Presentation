@@ -1,5 +1,5 @@
 ---
-title       : "Nano Optical Microscopy Final Presnetation" 
+title       : "Final Presnetation of Nanoscale Optical Microscopy and Spectroscopy"
 subtitle    : "Real time optical observation and control of atomically thin transition metal dichalcogenide synthesis"
 author      : Kuan-Chia Chiu (D06222003)
 job         : "Physics Department @ NTU"
@@ -10,7 +10,7 @@ widgets     : [mathjax, quiz, bootstrap] # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 github      :
-  user: ttt50966
+  user: "ttt50966"
   repo: "20190610-Nano-Scale-Optical-Microscopy-Final-Presentation"
 ---
 
