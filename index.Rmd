@@ -1,5 +1,5 @@
 ---
-title       : "Final Presnetation of Nanoscale Optical Microscopy and Spectroscopy"
+title       : "Nanoscale Optical Microscopy and Spectroscopy"
 subtitle    : "Real time optical observation and control of atomically thin transition metal dichalcogenide synthesis"
 author      : Kuan-Chia Chiu (D06222003)
 job         : "Physics Department @ NTU"
