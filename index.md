@@ -28,10 +28,11 @@ $(function() {
 
 1. <font size=6>**Introduction**</font>
   - Transition Metal Dichalcogenides (**TMDCs**)  
-2. <font size=6>**Experiment**</font>
-3. <font size=6>**Results**</font>
-4. <font size=6>**Discussion**</font>
-5. <font size=6>**Q&A**</font>
+2. <font size=6>**Methods**</font>
+3. <font size=6>**Experiment**</font>
+4. <font size=6>**Results & Discussion**</font>
+5. <font size=6>**Conclusion**</font>
+6. <font size=6>**Q&A**</font>
 
 
 --- .class #id
@@ -60,7 +61,10 @@ TMDCs are thin semiconductors of the type MX$_{2}$, with **M** as a transition m
 3. C<font color=green>$_{GR}$</font> = C<font color=green>$_{G}$</font> - C<font color=green>$_{SG}$</font>
 4. C<font color=blue>$_{DB}$</font> = C<font color=blue>$_{B}$</font> - C<font color=blue>$_{SB}$</font>
 
-The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_{S}$) was directly measured from its color optical image by using a free software (ImageJ)
+The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_{S}$) was directly measured from its color optical image by using a free software (`ImageJ`)
+
+
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
 
 --- &twocol w1:40% w2:60%
 
@@ -77,16 +81,22 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 | 6 layers | 118.6 |
 | 8 layers | 162.3 |
 
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
+
 
 ---
 
 ### Optical Identification of Graphene Nanosheets
 <img src="./assets/img/fig_2.png" width="800">
 
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
+
 ---
 
 ### Optical Identification of MoS2 Nanosheets
 <img src="./assets/img/fig_3.png" width="800">
+
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
 
 --- &twocol w1:50% w2:50%
 
@@ -104,6 +114,27 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 <img src="./assets/img/fig_4_5.png" width="330">
 <img src="./assets/img/fig_4_6.png" width="330">
 
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
+
 ---
 
-<img src="./assets/img/table_1.png" width="700">
+<img src="./assets/img/fig_5.png" width="800">
+
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
+
+
+---
+
+## Conclusion
+
+---
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<div style='text-align: center;'>
+    <font size = 20> Thank you for your attention!</font>
+</div>
+
+
