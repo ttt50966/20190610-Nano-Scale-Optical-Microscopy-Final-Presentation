@@ -134,7 +134,7 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 <br></br>
 <br></br>
 <div style='text-align: center;'>
-    <font size = 20> Thank you for your attention!</font>
+    <font size = 20 color=#535e43> Thank you for your attention!</font>
 </div>
 
 
