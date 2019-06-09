@@ -28,11 +28,14 @@ $(function() {
 
 1. <font size=6>**Introduction**</font>
   - Transition Metal Dichalcogenides (**TMDCs**)  
-2. <font size=6>**Methods**</font>
+  - Determinate the number of layers of TMDCs
+2. <font size=6>**Method**</font>
+  - the Optical Identification Method
 3. <font size=6>**Experiment**</font>
-4. <font size=6>**Results & Discussion**</font>
-5. <font size=6>**Conclusion**</font>
-6. <font size=6>**Q&A**</font>
+  - Optical Identification of Graphene Nanosheets
+  - Optical Identification of MoS$_{2}$ Nanosheets
+4. <font size=6>**Conclusion**</font>
+5. <font size=6>**Q&A**</font>
 
 
 --- .class #id
@@ -51,9 +54,36 @@ TMDCs are thin semiconductors of the type MX$_{2}$, with **M** as a transition m
 ###### [Transition metal dichalcogenide monolayers on Wikipedia](https://en.wikipedia.org/w/index.php?title=Transition_metal_dichalcogenide_monolayers&oldid=891064104) (last visited June 3, 2019).
 
 
---- .class #id
+--- .class #id &twocol w1:40% w2:60%
 
-## Experiments
+
+## Introduction
+### **How to determinate the number of layers of TMDCs?** 
+*** =left
+ 
+- Atomic Force Microscope (AFM)
+- Photoluminescence (PL)
+- Raman spectroscopy
+- Optical Microscopy (**this paper**)
+
+<img src="./assets/img/Ref_1_fig_3_a.png" width="400">
+
+##### Wang, Q. H.; Kalantar-Zadeh, K.; Kis, A.; Coleman, J. N.;Strano, M. S. *Nat. Nanotechnol* **7**, 699-712 (2012).
+
+
+*** =right
+<br></br>
+<br></br>
+<img src="./assets/img/Ref_1_fig_5_b.png" width="300">
+
+
+
+
+
+
+---
+
+## Method
 ### Description of the Optical Identification Method
 
 1. C$_{D}$ = C - C$_{S}$
@@ -68,8 +98,10 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 
 --- &twocol w1:40% w2:60%
 
+## Experiment
+
 *** =left
-<img src="./assets/img/fig_1.png" width="400">
+<img src="./assets/img/fig_1.png" width="350">
 
 *** =right
 
@@ -126,6 +158,10 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 ---
 
 ## Conclusion
+- a universal optical method has been developed for simple, rapid, and reliable identification of 1L-15L 2D nanosheets
+  - including graphene, MoS$_{2}$, WSe$_{2}$, and TaS$_{2}$, on 90 and 300 nm SiO$_{2}$/Si.
+- By processing the gray scale and three <font color=red>R</font><font color=green>G</font><font color=blue>B</font> channel in `ImageJ`, they could clear found different contrast transition in three channels.
+- Based on this method, it is very easy and quick to use PDMS to transfer single-layer TMDCs to the desired substracte and position.
 
 ---
 
@@ -137,4 +173,10 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
     <font size = 20 color=#535e43> Thank you for your attention!</font>
 </div>
 
+
+---
+
+<br></br>
+<img src="./assets/img/Ref_1_table_1.png" width="1000">
+##### Wang, Q. H.; Kalantar-Zadeh, K.; Kis, A.; Coleman, J. N.;Strano, M. S. *Nat. Nanotechnol* **7**, 699-712 (2012).
 
