@@ -34,6 +34,7 @@ $(function() {
 3. <font size=6>**Experiment**</font>
   - Optical Identification of Graphene Nanosheets
   - Optical Identification of MoS$_{2}$ Nanosheets
+  - Optical Identification of WSe$_{2}$ Nanosheets
 4. <font size=6>**Conclusion**</font>
 5. <font size=6>**Q&A**</font>
 
@@ -109,7 +110,7 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 ### The contrast values with different poistions
 | Layers | Contrast |
 | ------ | -------- |
-| 0 substracte | 120.4 |
+| 0 substrate | 120.4 |
 | 6 layers | 118.6 |
 | 8 layers | 162.3 |
 
@@ -154,14 +155,26 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 
 ###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
 
+---
+
+<img src="./assets/img/fig_6.png" width="800">
+
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
+
+---
+
+<img src="./assets/img/fig_7.png" width="800">
+
+###### H. Li, J. Wu, X. Huang, G. Lu, J. Yang, X. Lu, Q. Xiong, and H. Zhang, *ACS Nano* **7**, 10344 (2013).
 
 ---
 
 ## Conclusion
 - a universal optical method has been developed for simple, rapid, and reliable identification of 1L-15L 2D nanosheets
   - including graphene, MoS$_{2}$, WSe$_{2}$, and TaS$_{2}$, on 90 and 300 nm SiO$_{2}$/Si.
-- By processing the gray scale and three <font color=red>R</font><font color=green>G</font><font color=blue>B</font> channel in `ImageJ`, they could clear found different contrast transition in three channels.
-- Based on this method, it is very easy and quick to use PDMS to transfer single-layer TMDCs to the desired substracte and position.
+  - the reflective index of substrate is a crucial issue
+- By processing the gray scale and three <font color=red>R</font><font color=green>G</font><font color=blue>B</font> channel in `ImageJ`, they could clearly found different contrast transitions in three channels.
+- Based on this method, it is very easy and quick to use PDMS to transfer single-layer TMDCs to the desired substrate and position.
 
 ---
 
