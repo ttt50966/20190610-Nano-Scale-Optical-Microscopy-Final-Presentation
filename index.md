@@ -24,6 +24,10 @@ $(function() {
 </script>
 
 
+<img src="./assets/img/fig_title.png" width="900">
+
+---
+
 ## Outline
 
 1. <font size=6>**Introduction**</font>
@@ -174,6 +178,8 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
   - including graphene, MoS$_{2}$, WSe$_{2}$, and TaS$_{2}$, on 90 and 300 nm SiO$_{2}$/Si.
   - the reflective index of substrate is a crucial issue
 - By processing the gray scale and three <font color=red>R</font><font color=green>G</font><font color=blue>B</font> channel in `ImageJ`, they could clearly found different contrast transitions in three channels.
+
+### In my lab
 - Based on this method, it is very easy and quick to use PDMS to transfer single-layer TMDCs to the desired substrate and position.
 
 ---
