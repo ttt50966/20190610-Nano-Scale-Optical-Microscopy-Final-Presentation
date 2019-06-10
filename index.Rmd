@@ -176,8 +176,8 @@ The optical contrast of a nanosheet (defined as C) and substrate (defined as C$_
 ## Conclusion
 - a universal optical method has been developed for simple, rapid, and reliable identification of 1L-15L 2D nanosheets
   - including graphene, MoS$_{2}$, WSe$_{2}$, and TaS$_{2}$, on 90 and 300 nm SiO$_{2}$/Si.
-  - the reflective index of substrate is a crucial issue
-- By processing the gray scale and three <font color=red>R</font><font color=green>G</font><font color=blue>B</font> channel in `ImageJ`, they could clearly found different contrast transitions in three channels.
+  - the thickness of substrate is a crucial issue to contrast differences.
+- By processing the gray scale and three RGB channel in ImageJ, they could clearly found different contrast transitions in three channels.
 
 ### In my lab
 - Based on this method, it is very easy and quick to use PDMS to transfer single-layer TMDCs to the desired substrate and position.
