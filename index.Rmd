@@ -63,7 +63,7 @@ TMDCs are thin semiconductors of the type MX$_{2}$, with **M** as a transition m
 
 
 ## Introduction
-### **How to determinate the number of layers of TMDCs?** 
+### **How to determine the number of layers of TMDCs?** 
 *** =left
  
 - Atomic Force Microscope (AFM)
